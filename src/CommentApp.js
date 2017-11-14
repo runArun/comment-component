@@ -15,7 +15,7 @@ class CommentApp extends Component {
         this._loadComments()
     }
 
-    _loadComments () {
+    _loadComments () {    //
         let comments = localStorage.getItem('comments')
         if (comments) {
             comments = JSON.parse(comments)
